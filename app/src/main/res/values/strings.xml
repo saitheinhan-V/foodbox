@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Food Box</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="welcome_text">Create your own recipes</string>
+    <string name="text_ingredients">ပါဝင်ပစ္စည်းများ</string>
+    <string name="text_favourite">မိမိအကြိုက်</string>
+    <string name="text_imadeit">ပြုလုပ်ပြီး</string>
+    <string name="text_about_software"></string>
+    <string name="text_about">ဆော့ဝဲလ်အကြောင်း</string>
+    <string name="text_exit">ထွက်မည်</string>
+    <string name="text_btn_add_shopping_list">ဈေးဝယ်စာရင်းထည့်ရန်</string>
+    <string name="text_btn_direction">ပြုလုပ်နည်းကိုကြည့်ရန်</string>
+    <string name="text_search_box_by_ingredient">ပါဝင်ပစ္စည်းများရိုက်ရန်</string>
+    <string name="text_search_text_view">ပါဝင်ပစ္စည်းများဖြင့် ပြုလုပ်နည်းရှာရန်</string>
+    <string name="text_btn_search">ရှာမယ်</string>
+    <string name="text_shopping_list">ဈေးဝယ်စာရင်း</string>
+    <string name="text_directions_top">ပြုလုပ်နည်း</string>
+    <string name="categories_description">အမျိုးအစားအလိုက်ပြုလုပ်နည်းများကို ကြည့်ပါ။</string>
+    <string name="what_to_do_method">ဘယ်လိုလုပ်ရမလဲ?</string>
+    <string name="exit_ok">ထွက်မယ်</string>
+    <string name="exit_cancel">မထွက်သေးပါ</string>
+    <string name="exit_text">ထွက်မှာသေချာပြီလား</string>
+    <string name="shopping_added">ဈေးဝယ်စာရင်းသို့ထည့်ပြီး</string>
+    <string name="about_text_third">- အစားအစာနှင့် ပတ်သက်သောဆောင်းပါးများ၊ အစားအသောက်များပြုလုပ်ချိန်တွင် လိုအပ်သောအခြေခံနည်းလမ်းများကို ဖတ်ရှုနိုင်ပါသည်။</string>
+    <string name="about_text_first"> - အချက်အပြုတ်ဝါသနာပါသူများအတွက် အစားအသောက် ပြုလုပ်နည်းများကို အဆင်ပြေပြေကြည့်ရှုနိုင်ရန် ရည်ရွယ်ပါသည်။</string>
+    <string name="about_text_second">- အစားအသောက် ကိုယ်တိုင်ပြုလုပ်ချင်ပေမဲ့ ideas မရှိသောသူများအတွက် ပြုလုပ်နည်းများကို ရှာဖွေနိုင်ရန် ဖန်တီးထားသော app ဖြစ်ပါသည်။</string>
+    <string name="text_developed">Developed by team-06\n- Sai Thein Han\n- Nang Hom Ngin\n- Mg Myo Thu Win</string>
+</resources>

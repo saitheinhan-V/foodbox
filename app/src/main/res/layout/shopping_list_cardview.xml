@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:elevation="3dp"
+        android:layout_marginLeft="@dimen/shop_margin_left_right"
+        android:layout_marginRight="@dimen/shop_margin_left_right"
+        >
+
+        <RelativeLayout
+            android:id="@+id/relative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_shop_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/title_padding"
+                android:paddingRight="@dimen/title_padding"
+                android:paddingTop="@dimen/title_padding"
+                android:paddingBottom="@dimen/title_padding"
+                android:textSize="@dimen/title_text_size"
+                android:textColor="@android:color/white"
+                android:background="@color/colorPrimary"
+                />
+
+            <TextView
+                android:id="@+id/tv_shop_ingredient"
+                android:layout_below="@+id/tv_shop_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:visibility="visible"
+                android:textSize="15dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <ImageButton
+                android:id="@+id/img_button_shop_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorPrimary"
+                android:src="@drawable/ic_clear_black_24dp"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

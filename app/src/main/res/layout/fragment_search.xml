@@ -1,0 +1,90 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.team06.foodbox.fragments.SearchFragment">
+
+
+    <TextView
+        android:id="@+id/tv_text_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_search_text_view"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/ic_search_24dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        />
+
+    <AutoCompleteTextView
+        android:id="@+id/tv_search"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/tv_text_search"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:background="#eeeeee"
+        android:hint="@string/text_search_box_by_ingredient"
+        android:textSize="15dp"
+        android:completionThreshold="1"
+        />
+
+    <ImageButton
+        android:id="@+id/img_button_add"
+        android:layout_below="@+id/tv_text_search"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:src="@drawable/ic_add_black_24dp"
+        android:layout_marginLeft="10dp"
+        android:padding="6dp"
+        android:layout_toLeftOf="@+id/img_button_clear"
+        android:backgroundTint="@color/colorPrimary"
+
+        />
+    <ImageButton
+        android:id="@+id/img_button_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_text_search"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_clear_black_24dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:padding="10dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_search">
+    <TextView
+        android:id="@+id/tv_ingredients"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/button_corner"
+        android:paddingLeft="30dp"
+        android:textColor="@color/colorPrimary"
+        android:paddingTop="30dp"
+        android:textSize="16dp"
+        />
+
+    </RelativeLayout>
+
+
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/text_btn_search"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>

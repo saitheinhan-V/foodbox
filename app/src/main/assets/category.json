@@ -1,0 +1,53 @@
+[
+  {
+    "category_id":"1",
+    "category_title":"ပေါင်မုန့်",
+    "category_image":"https://i.postimg.cc/8cBt9mJJ/bread2.jpg"
+  },
+  {
+    "category_id":"2",
+    "category_title":"မြန်မာအစားအစာ",
+    "category_image":"https://i.postimg.cc/pX7hJL7v/myanmar.jpg"
+  },
+  {
+    "category_id":"3",
+    "category_title":"ကွတ်ကီး",
+    "category_image":"https://i.postimg.cc/J7b6sM6r/cookie2.jpg"
+  },
+  {
+    "category_id":"4",
+    "category_title":"တရုတ်အစားအစာ",
+    "category_image":"https://i.postimg.cc/ZKYtsYr9/Chinese.jpg"
+  },
+  {
+    "category_id":"5",
+    "category_title":"အကင်စုံ",
+    "category_image":"https://i.postimg.cc/FsPtMtZT/roaster.jpg"
+  },
+  {
+    "category_id":"6",
+    "category_title":"နိုင်ငံတကာအစားအစာ",
+    "category_image":"https://i.postimg.cc/pdFg5mtS/internation.jpg"
+  },
+  {
+    "category_id":"7",
+    "category_title":"သတ်သတ်လွတ်အစားအစာ",
+    "category_image":"https://i.postimg.cc/k4PLQ7Jg/vegetable.jpg"
+  },
+  {
+    "category_id":"8",
+    "category_title":"ကိတ်မုန့်",
+    "category_image":"https://i.postimg.cc/yxHB8Fgn/Cake-Cover.jpg"
+  },
+  {
+    "category_id":"9",
+    "category_title":"မုန့်ဖုတ်အမျိုးမျိုး",
+    "category_image":"https://i.postimg.cc/mZYB66Jn/Pastries-Cover.jpg"
+  },
+  {
+    "category_id":"10",
+    "category_title":"Healthy&Diet Foods",
+    "category_image":"https://i.postimg.cc/7ZcFLgj7/diet-and-healtht.jpg"
+  }
+
+]
